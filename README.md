@@ -50,7 +50,7 @@ Now you can run gh-review from anywhere.
 ## 🖥 Usage
 List PRs for review
 ```
-gh-review list
+gh-review
 ```
 
 ## 📫 Contributing to `gh-review-cli`
