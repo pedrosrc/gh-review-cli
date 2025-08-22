@@ -12,11 +12,26 @@ It uses the GitHub REST API and requires a Personal Access Token.
     <li>Display the total number of PRs</li>
 </ul>
 
+## 🔑 Setup
+
+You need a GitHub Personal Access Token with `repo` and `pull_request` scopes.
+
+Create one at:
+<a href="https://github.com/settings/tokens">GitHub → Settings → Developer settings → Personal Access Tokens
+</a>
+
+Export it as an environment variable:
+```
+export GITHUB_TOKEN=your_token_here
+```
+Tip: Add this line to your shell configuration file `(.bashrc, .zshrc, etc.)` so you don’t have to set it every time you open a new terminal.
+
+
 ## 📦 Installation
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/gh-review-cli.git
+git clone https://github.com/pedrosrc/gh-review-cli.git
 cd gh-review-cli
 ```
 
@@ -31,19 +46,6 @@ sudo mv gh-review /usr/local/bin/
 ```
 
 Now you can run gh-review from anywhere.
-
-## 🔑 Setup
-
-You need a GitHub Personal Access Token with repo and pull_request scopes.
-
-Create one at:
-<a href="https://github.com/settings/tokens">GitHub → Settings → Developer settings → Personal Access Tokens
-</a>
-
-Export it as an environment variable:
-```
-export GITHUB_TOKEN=your_token_here
-```
 
 ## 🖥 Usage
 List PRs for review
